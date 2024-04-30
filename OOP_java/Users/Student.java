@@ -1,4 +1,4 @@
-package OOP_java;
+package OOP_java.Users;
 
 public class Student extends Users{
     String matricNo;

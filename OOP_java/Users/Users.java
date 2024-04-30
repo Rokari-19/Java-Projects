@@ -1,4 +1,4 @@
-package OOP_java;
+package OOP_java.Users;
 
 public class Users {
     String name;
@@ -7,7 +7,7 @@ public class Users {
         return "logged in";
     }
 
-    String Register() {
+    String register() {
         if (name.equals("") || password.equals("")) {
             return "can't be empty";
         } else {

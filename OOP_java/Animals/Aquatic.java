@@ -1,4 +1,4 @@
-package OOP_java;
+package OOP_java.Animals;
 
 public class Aquatic extends Animal {
     @Override

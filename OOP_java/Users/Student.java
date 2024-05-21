@@ -26,6 +26,7 @@ public class Student extends Users{
 
     public static void main(String[] args) {
         Student newStudent = new Student();
+        newStudent.getName();
         newStudent.registerCourses("cmp202");
         System.out.println(newStudent.checkResult());
     }

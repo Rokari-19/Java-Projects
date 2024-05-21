@@ -2,7 +2,8 @@ package OOP_java.Users;
 
 public class Users {
     String name;
-    String password;
+    private String schoolName = "bingham university";
+    private String password;
     String login() {
         return "logged in";
     }
@@ -13,5 +14,13 @@ public class Users {
         } else {
             return "Success";
         }
+    }
+
+    String getName() {
+        return schoolName;
+    }
+
+    void setName(String name) {
+        this.name = name;
     }
 }

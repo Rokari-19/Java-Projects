@@ -9,7 +9,7 @@ public class User {
         }
     }
     boolean checker() {
-        if (3 != 1) {
+        if (1 != 1) {
             return true;
         } else {
             return false;
